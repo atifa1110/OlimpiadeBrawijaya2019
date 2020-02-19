@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_margin="16dp">
+
+
+    <TextView
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/enroll_key_header"
+            android:textSize="22sp"/>
+
+    <TextView
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/enroll_key_description"
+            android:textSize="16sp"/>
+
+    <EditText
+            android:id="@+id/enroll_et"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:inputType="number"
+            android:background="@drawable/edittext_background"/>
+
+    <LinearLayout
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/cancelnBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView"
+                android:background="#CECCCD"
+                android:text="Abaikan"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+        <View
+                android:layout_width="12dp"
+                android:layout_height="10dp"/>
+
+        <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView"
+                android:background="@color/button_color"
+                android:text="Kirim"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

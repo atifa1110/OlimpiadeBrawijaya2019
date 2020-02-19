@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "431202981414",
+    "firebase_url": "https://orsimbrawijaya-6a119.firebaseio.com",
+    "project_id": "orsimbrawijaya-6a119",
+    "storage_bucket": "orsimbrawijaya-6a119.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431202981414:android:8ded973632aeba6ee838e7",
+        "android_client_info": {
+          "package_name": "com.olimpiadebrawijaya.atifafiorenza.ob2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431202981414-uibk3dchnq0h9ts0g8hl59nu2citdvkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.olimpiadebrawijaya.atifafiorenza.ob2019",
+            "certificate_hash": "6389c29b2312018717757aaa066fe35dc34009d7"
+          }
+        },
+        {
+          "client_id": "431202981414-p65datthg0v3kf1r627c8t74kme4824p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnriJvoP8ZBwrHxQ-MkT6Pr9rb96cnMWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431202981414-p65datthg0v3kf1r627c8t74kme4824p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

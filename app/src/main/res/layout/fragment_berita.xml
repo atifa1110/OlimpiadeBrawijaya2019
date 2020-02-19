@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_grey_50"
+        tools:context=".ui.nav_menu.berita.BeritaFragment">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/berita_swipeToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/berita_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="vertical"
+                tools:context=".ui.nav_menu.berita.BeritaFragment"
+                tools:listitem="@layout/item_news_content"
+                tools:name="com.raioncommunity.android.ob2017.ui.BeritaFragment"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

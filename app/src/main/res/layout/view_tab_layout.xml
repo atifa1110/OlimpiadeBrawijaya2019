@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              style="@style/AppTheme.Evelation"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <com.ogaclejapan.smarttablayout.SmartTabLayout
+            android:id="@+id/tabLayout"
+            style="@style/AppTheme.TabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tabLayoutHeight"
+            android:background="@color/colorPrimary"
+            app:stl_clickable="true"
+            app:stl_defaultTabTextColor="@color/material_light_white"
+            app:stl_defaultTabTextHorizontalPadding="62dp"
+            app:stl_dividerColor="@color/colorPrimary"
+            app:stl_indicatorAlwaysInCenter="true"
+            app:stl_indicatorColor="@color/material_light_white"
+            app:stl_indicatorInterpolation="linear"
+            app:stl_indicatorThickness="3dp"
+            app:stl_underlineColor="@color/colorPrimary" />
+
+</LinearLayout>

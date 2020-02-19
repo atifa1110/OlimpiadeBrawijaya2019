@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.nav_menu.klasmen.KlasmenFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_small"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/klasmen_fakultas"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.35"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                    android:id="@+id/klasmen_goldIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_weight="0.15"
+                    android:adjustViewBounds="true"
+                    android:background="@mipmap/ic_jumlah_medali_gold"/>
+
+            <ImageView
+                android:id="@+id/klasmen_silverIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_jumlah_medali_silver" />
+
+            <ImageView
+                android:id="@+id/klasmen_bronzeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_jumlah_medali_bronze" />
+
+            <ImageView
+                android:id="@+id/klasmen_totalIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_totalmedali" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/klasmen_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_klasmen"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"/>
+</LinearLayout>

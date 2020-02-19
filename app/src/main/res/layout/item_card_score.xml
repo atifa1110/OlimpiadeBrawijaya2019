@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_verysmall">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/spacing_verysmall"
+                    android:paddingTop="@dimen/spacing_verysmall">
+
+                <TextView
+                        android:id="@+id/waktu_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/spacing_small"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="@font/gothamlight"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="@dimen/font_status"
+
+                        tools:text="SEMIFINAL" />
+
+                <ImageView
+                        android:id="@+id/card_caborIcon"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_toLeftOf="@+id/card_caborName"
+                        android:layout_toStartOf="@+id/card_caborName"
+                        tools:src="@mipmap/ic_cabor_futsal" />
+
+                <TextView
+                        android:id="@+id/card_caborName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        tools:text="@string/caborFutsal"
+                        android:fontFamily="@font/gothammedium"/>
+
+
+                <TextView
+                        android:id="@+id/cardScore_live"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/spacing_small"
+                        android:drawableLeft="@mipmap/ic_live"
+                        android:gravity="center_vertical"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/gothambold"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/font_medium"
+                        tools:text="LIVE" />
+
+
+            </RelativeLayout>
+
+            <View style="@style/Divider" />
+
+            <TextView
+                    android:id="@+id/jenis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:fontFamily="@font/gothambook"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    tools:text="putra" />
+
+            <RelativeLayout
+                    android:id="@+id/cardScore_bagan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:layout_marginLeft="@dimen/spacing_small"
+                    android:layout_marginRight="@dimen/spacing_small"
+                    android:layout_marginTop="@dimen/spacing_small">
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:id="@+id/cardScore_team1Res"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@mipmap/ic_tobedetermined_icon" />
+
+                    <TextView
+                            android:id="@+id/cardScore_team1Nama"
+                            android:layout_width="82dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/gothambook"
+                            android:text="@string/to_be_determined" />
+
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/cardScore_team1Score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/card_versus"
+                        android:gravity="center_vertical"
+                        android:text="@string/score"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/font_verylarge" />
+
+                <TextView
+                        android:id="@+id/card_versus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/spacing_medium"
+                        android:paddingRight="@dimen/spacing_medium"
+                        android:text="@string/cardVersus"
+                        android:fontFamily="@font/gothammedium"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                        android:id="@+id/cardScore_team2Score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/card_versus"
+                        android:gravity="center_vertical"
+                        android:text="@string/score"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/font_verylarge" />
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:id="@+id/cardScore_team2Res"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@mipmap/ic_tobedetermined_icon" />
+
+                    <TextView
+                            android:id="@+id/cardScore_team2Nama"
+                            android:layout_width="82dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/gothambook"
+                            android:text="@string/to_be_determined" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/cardScore_langsung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-28dp">
+
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/spacing_small"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:id="@+id/cardScore_juara1Res"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@mipmap/ic_tobedetermined_icon" />
+
+                    <TextView
+                            android:id="@+id/cardScore_juara1Text"
+                            android:layout_width="82dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:fontFamily="@font/gothambook"
+                            android:text="@string/to_be_determined" />
+
+                    <ImageView
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-22dp"
+                            android:adjustViewBounds="true"
+                            android:src="@mipmap/ic_juara_gold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_small"
+                        android:layout_marginTop="@dimen/spacing_verylarge"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:id="@+id/cardScore_juara2Res"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@mipmap/ic_tobedetermined_icon" />
+
+                    <TextView
+                            android:id="@+id/cardScore_juara2Text"
+                            android:layout_width="82dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:fontFamily="@font/gothambook"
+                            android:text="@string/to_be_determined" />
+
+                    <ImageView
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-22dp"
+                            android:adjustViewBounds="true"
+                            android:src="@mipmap/ic_juara_silver" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/spacing_small"
+                        android:layout_marginTop="@dimen/font_verylarge"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <ImageView
+                                android:id="@+id/cardScore_juara3Res"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@mipmap/ic_tobedetermined_icon" />
+
+                        <TextView
+                                android:id="@+id/cardScore_juara3Text"
+                                android:layout_width="82dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:fontFamily="@font/gothambook"
+                                android:text="@string/to_be_determined" />
+
+                        <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="92dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-22dp"
+                                android:adjustViewBounds="true"
+                                android:src="@mipmap/ic_juara_bronze" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_small">
+
+                <ImageView
+                        android:id="@+id/iv_share_item_card_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:src="@mipmap/ic_share" />
+
+                <TextView
+                        android:id="@+id/lokasi_lomba"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:drawableLeft="@mipmap/ic_lokasi_lomba"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/gothambookitalic"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        tools:text="Lokasi percobaan" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

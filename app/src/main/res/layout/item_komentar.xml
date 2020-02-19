@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_light_white"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/nama_pengguna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/gothammedium"
+            android:text="Atifa Fiorenza"
+            android:textColor="@color/colorPrimary" />
+
+
+    <TextView
+            android:id="@+id/komentar_pengguna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/gothamlight"
+            android:text="Halo ini contoh komentar untu berita diatas"
+            android:textColor="#000" />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/material_blue_grey_50"/>
+
+</LinearLayout>

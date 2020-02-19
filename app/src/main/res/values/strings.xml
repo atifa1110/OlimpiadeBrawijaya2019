@@ -1,0 +1,395 @@
+<resources>
+    <string name="app_name">Orsim Brawijaya 2019</string>
+
+    <string name="chooseCabangOlahraga">Pilih cabang olahraga favorit</string>
+    <string name="chooseFakultas">Pilih Fakultas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="shareString">Bagikan</string>
+    <string name="continueReadingString">Baca selengkapnya</string>
+
+    <!--Login-->
+    <string name="loginnim">NIM</string>
+    <string name="loginpassword">Password</string>
+    <string name="login">Log In</string>
+    <string name="loginGuest">
+        <u>Login As Guest</u>
+    </string>
+
+    <!-- Cabang Olahraga -->
+    <string name="caborAtletik">Atletik</string>
+    <string name="caborBadminton">Bulutangkis</string>
+    <string name="caborBasket">Basket</string>
+    <string name="caborBridge">Bridge</string>
+    <string name="caborCatur">Catur</string>
+    <string name="caborDebatIndonesia">Debat Bahasa Indonesia</string>
+    <string name="caborDebatInggris">Debat Bahasa Inggris</string>
+    <string name="caborDesainPoster">Desain Poster</string>
+    <string name="caborFestivalBand">Festival Band</string>
+    <string name="caborFotografi">Fotografi</string>
+    <string name="caborFutsal">Futsal</string>
+    <string name="caborKarate">Karate</string>
+    <string name="caborKempo">Kempo</string>
+    <string name="caborKomik">Komik</string>
+    <string name="caborMenembak">Menembak</string>
+    <string name="caborMenyanyiDangdut">Menyanyi Dangdut</string>
+    <string name="caborMenyanyiKeroncong">Keroncong</string>
+    <string name="caborMenyanyiPop">Menyanyi Pop</string>
+    <string name="caborMenyanyiSeriosa">Seriosa</string>
+    <string name="caborNewscasting">News Casting</string>
+    <string name="caborPaduanSuara">Paduan Suara</string>
+    <string name="caborPanahan">Panahan</string>
+    <string name="caborPencakSilat">Pencak Silat</string>
+    <string name="caborPidato">Pidato</string>
+    <string name="caborPuisi">Puisi</string>
+    <string name="caborRecycle">Recycle</string>
+    <string name="caborRenang">Renang</string>
+    <string name="caborSinematografi">Sinematografi</string>
+    <string name="caborMonologStandUpComedy">Stand Up Comedy</string>
+    <string name="caborMonolog">Monolog</string>
+    <string name="caborTaekwondo">Taekwondo</string>
+    <string name="caborTennisLapangan">Tenis Lapangan</string>
+    <string name="caborTennisMeja">Tenis Meja</string>
+    <string name="caborVocalGrup">Vocal Group</string>
+    <string name="caborVoli">Voli</string>
+    <string name="caborWallClimb">Wall Climb</string>
+    <string name="caborMobileLegend">Mobile Legend</string>
+    <string name="caborPUBG">PUBG</string>
+
+    <!-- Fakultas -->
+    <string name="fakultasFH">Fakultas Hukum</string>
+    <string name="fakultasFEB">Fakultas Ekonomi dan Bisnis</string>
+    <string name="fakultasFIA">Fakultas Ilmu Administrasi</string>
+    <string name="fakultasFP">Fakultas Pertanian</string>
+    <string name="fakultasFapet">Fakultas Peternakan</string>
+    <string name="fakultasFT">Fakultas Teknik</string>
+    <string name="fakultasFK">Fakultas Kedokteran</string>
+    <string name="fakultasFPIK">Fakultas Perikanan dan Ilmu Kelautan</string>
+    <string name="fakultasFMIPA">Fakultas Matematika dan Ilmu Pengetahuan Alam</string>
+    <string name="fakultasFTP">Fakultas Teknologi Pertanian</string>
+    <string name="fakultasFISIP">Fakultas Ilmu Sosial dan Ilmu Politik</string>
+    <string name="fakultasFIB">Fakultas Ilmu Budaya</string>
+    <string name="fakultasFKH">Fakultas Kedokteran Hewan</string>
+    <string name="fakultasFKG">Fakultas Kedokteran Gigi</string>
+    <string name="fakultasFILKOM">Fakultas Ilmu Komputer</string>
+    <string name="fakultasVokasi">Program Vokasi</string>
+    <string name="UBKampus3">UB Kampus 3</string>
+    <string name="fakultasTester">Fakultas Tester</string>
+
+    <!-- Petunjuk Penonton - Venue -->
+    <string name="venueLapBulutangkis">Lapangan Bulutangkis</string>
+    <string name="venueLapTenis">Lapangan Tenis</string>
+    <string name="venueLapTenisMeja">Lapangan Tenis Meja</string>
+    <string name="venueGorPertamina">GOR Pertamina</string>
+    <string name="venuePasarBurung">Pasar Burung</string>
+    <string name="venueWidyaloka">Gedung Widyaloka</string>
+    <string name="venueUBTV">UB TV Gedung Rektorat</string>
+    <string name="venueGazeboUB">Gazebo Universitas Brawijaya</string>
+    <string name="venueGazeboPerpus">Gazebo Perpustakaan UB</string>
+    <string name="venueGajayana">Gajayana</string>
+    <string name="venueUBSC">Gedung UB Sport Center</string>
+    <string name="venueSMA7">Lapangan SMAN 7 Malang</string>
+    <string name="venueVoli">Lapangan Voli</string>
+
+
+    <!-- Dialog -->
+    <string name="positiveButton">OK</string>
+    <string name="negativeButton">Cancel</string>
+    <string name="selectCabor">Setidaknya pilih satu cabang olahraga!</string>
+    <string name="selectFakultas">Pilih satu fakultas!</string>
+    <string name="confirm">Apakah Anda yakin ingin menghapus pilihan Anda?</string>
+    <string name="confirmInfo">Anda bisa merubah pilihan anda pada menu Setting.</string>
+
+    <string name="deleteConfirm">Apakah anda yakin ingin menghapus pilihan favorit?</string>
+
+    <!-- Toolbar Title -->
+    <string name="berandaTitle">Beranda</string>
+
+    <!-- NavDrawer Menu -->
+    <string name="navDrawerLogIn">Log In</string>
+    <string name="navDrawerBeranda">Beranda</string>
+    <string name="navDrawerJadwal">Jadwal</string>
+    <string name="navDrawerKlasemen">Klasemen</string>
+    <string name="navDrawerFakSaya">Fakultas Saya</string>
+    <string name="navDrawerFakLain">Fakultas Lain</string>
+    <string name="navDrawerHasil">Hasil Pertandingan</string>
+    <string name="navDrawerNews">Berita</string>
+    <string name="navDrawerGuide">Petunjuk Penonton</string>
+    <string name="navDrawerFavorit">Favorit</string>
+    <string name="navDrawerProfil">Profile</string>
+    <string name="navDrawerAbout">About</string>
+
+    <string name="ketentuan">Ketentuan</string>
+
+    <!-- ViewPager Menu -->
+    <string name="viewPagerToday">Hari ini</string>
+    <string name="viewPagerYesterday">Kemarin</string>
+    <string name="viewPagerTomorrow">Besok</string>
+
+    <string name="viewPagerResult">Hasil</string>
+    <string name="viewPagerUpcoming">Akan Datang</string>
+
+    <!-- Card Text -->
+    <string name="cardVersus">VS</string>
+
+    <!-- Setting Strings -->
+    <string name="setting_pushNotification">Notifikasi</string>
+    <string name="setting_profile">Profil</string>
+    <string name="setting_fakultasSaya">Fakultas Saya</string>
+    <string name="setting_favoritSaya">Favorit Saya</string>
+    <string name="setting_tambahFavorit">Tambah favorit</string>
+
+    <!-- Klasmen View -->
+    <string name="klasmen_Fakultas">Fakultas</string>
+
+    <!--About-->
+    <string name="aboutUs_content">
+                    Pengembangan seni dan olahraga merupakan bagian dari upaya peningkatan kualitas sumber daya manusia.
+        Seni, olahraga maupun penalaran dapat menjadi media peningkatan jasmani, mental, rohani, pembentuk watak dan kepribadian, serta
+        sebagai media pembentuk sportivitas tinggi guna meningkatkan prestasi yang dapat membangkitkan rasa kebanggan setiap individu.
+        Olahraga dan Seni Mahasiswa (ORSIM) Brawijaya merupakan sebuah kegiatan yang didalamnya mencakup ketiga bidang tersebut di Universitas
+        Brawijaya yang diadakan dengan tujuan mengumpulkan seluruh unit civitas akademika yang bertujuan meningkatkan, mengasah minat, bakat,
+        dan kreativitas mahasiswa serta untuk memperluas wawasan dan mengembangkan potensi bagi mahasiswa di bidang olahraga, seni , dan penalaran.
+        ORSIM Brawijaya juga merupakan sarana untuk menjaring bibit-bibit unggul dari setiap fakultas untuk regenerasi UKM.
+    </string>
+    <string name="aboutUs_baron">Maskot merupakan representatif dari karakter dari acara yang dibuat oleh suatu
+        organisasi, klub, atau lembaga. Seperti halnya Orsim Brawijaya 2019, yang diwujudkan dalam bentuk hewan
+        tangguh yang siap mengiringi kejayaan di acara ini yakni serigala. Harapan untuk sosok tangguh ini dalam
+        pelaksanaan Orsim Brawijaya 2019 adalah panutan yang pemberani dan penuh keceriaan lagi pembawa keharmonisan
+        diberi nama OBI.
+    </string>
+
+    <string name="tidakAdaData">Tidak ada data.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <!--berita detail-->
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_berita_detail2">Berita Detail</string>
+
+    <!--settings-->
+    <string name="title_activity_settings">Settings</string>
+
+    <!--Notification channel-->
+    <string name="notifications_admin_channel_name">Global channel</string>
+    <string name="notifications_admin_channel_description">Notifications sent from the app admin</string>
+
+    <!--Ketentuan-->
+    <string name="syaratPenonton1">A. Pertandingan indoor meliputi Venue
+        (Gedung Widyaloka, GKM, UBTV, UBSC, GOR PERTAMINA, Perpustakaan UB , Kolam renang Gajayana)
+    </string>
+    <string name="syaratPenonton2">B. Pertandingan Outdoor meliputi Venue (Lapangan Voli Samping GOR Pertamina),
+        Lapangan UB Dieng, Teras Perpustakaan UB, Gazebo Raden Wijaya, Stadion Gajayana)
+    </string>
+    <string name="syaratPenonton3">C. Semua Penonton diwajibkan menunjukkan kartu identitas\n
+        Untuk mahasiswa UB menunjukan KTM atau SIAM .Mahasiswa baru dapat menunjukan KTMS.
+        Untuk Umum (non-Mahasiswa UB) dapat menunjukan KTP atau SIM
+    </string>
+    <string name="syaratPenonton4">D. Panitia wajib melakukan pemeriksaan badan dan bawaan terhadap
+        semua penonton dari benda yang bisa memberikan ancaman terhadap orang lain yang berada
+        disekitarnya untuk disita atau diamankan oleh petugas keamanan selama pertandingan berlangsung
+    </string>
+    <string name="syaratPenonton5">E. Panitia berhak melakukan pemisahan penonton pada setiap pertandingan</string>
+    <string name="syaratPenonton6">F. Didalam venue terdapat area steril Dimana area steril adalah area
+        yang tidak boleh dilewati atau ditempati baik penonton maupun atlet kecuali panitia dan yang berkepentingan.
+    </string>
+    <string name="syaratPenonton7">G. Pengembalian perlengkapan atau alat yang dititipkan bisa diambil
+        dari pos penjagaan dengan menunjukkan dan memberitahu nomor yang telah diberikan panitia saat
+        menitipkan barang, apabila nomor hilang maka partisipan harus menyerahkan fotocopy KTM/KTP/SIM. Waktu
+        pengambilan barang maksimal 1X24 jam. Jika barang yang disita tidak diambil hingga melewati batas yang
+        ditentukan maka kehilangan dan kerusakan bukan tanggung jawab panitia.
+    </string>
+    <string name="syaratPenonton8">H. Semua penonton yang keluar dan masuk arena harus melalui pintu masuk dan keluar
+        yang ditetapkan oleh pihak panitia.
+    </string>
+    <string name="syaratPenonton9">I. Semua penonton yang keluar area venue, saat masuk kembali harus melakukan
+        pemeriksaan ulang.
+    </string>
+    <string name="syaratPenonton10">J. Semua penonton yang tidak mendapatkan tempat di area Supporter fakultas terkait
+        tidak diperbolehkan menempati area Supporter fakultas lain ataupun area Supporter netral.
+    </string>
+    <string name="syaratPenonton11">K. Bila terjadi kerusakan fasilitas olahraga ataupun lomba lainnya yang disebabkan
+        oleh partisipan maka akan diserahkan ke penanggung jawab setiap venue untuk ditindak lanjuti.
+    </string>
+    <string name="syaratPenonton12">L. Untuk semua Venue terdapat area Supporter yang telah ditentukan oleh panitia.
+        Jika penonton yang bukan berasal dari kedua fakultas tidak ingin menempati area Supporter netral yang
+        telah disediakan maka secara terpaksa tidak diperkenankan untuk menonton pertandingan atau dikeluarkan dari
+        venue
+    </string>
+
+    <string name="peraturanTambahan1">A. Berlaku untuk pertandingan Indoor dan Outdoor</string>
+    <string name="peraturanTambahan2">B. Adapun acuan peraturan yang digunakan dan wajib dipatuhi oleh
+        seluruh partisipan dalam kegiatan Orsim Brawijaya 2019 yaitu mengenai “Kode Etik Mahasiswa
+        Universitas Brawijaya” yang telah di tetapkan oleh Universitas Brawijaya dalam Pedoman
+        Pendidikan Universitas Brawijaya
+    </string>
+    <string name="peraturanTambahan3">C. Dilarang melempar/menjatuhkan barang apapun yang mengganggu/ membahayakan ke
+        area pertandingan selama pertandingan berlangsung
+    </string>
+    <string name="peraturanTambahan4">D. Dilarang membuang sampah sembarangan, mengotori, merusak fasilitas, makan,
+        minum dan merokok/vape di Venue.
+    </string>
+    <string name="peraturanTambahan5">E. Dilarang meneriakan/menyanyikan kata-kata, yel-yel yang berbau SARA,
+        penghinaan, umpatan atau yang dapat memicu terjadinya keributan jika sampai terjadi hal tersebut, maka akan
+        diberlakukan sanksi yang berada pada bab Sanksi.
+    </string>
+    <string name="peraturanTambahan6">F. Jika terjadi kericuhan/kerusuhan yang dapat membahayakan salah satu pihak atau
+        lebih maka pertandingan dapat di berhentikan sementara (dengan pertimbangan keamanan)
+    </string>
+    <string name="peraturanTambahan7">G. Seluruh partisipan Orsim Brawijaya 2019 harus mentaati peraturan dan etika
+        yang ada, dalam rangka menjaga keamanan, kenyamanan, kebersihan, dan kesuksesan lomba yang berlangsung.
+    </string>
+    <string name="peraturanTambahan8">H. Panitia berhak mengambil benda-benda atau hal-hal yang dianggap akan
+        membahayakan atau mengganggu pada saat pertandingan.
+    </string>
+    <string name="peraturanTambahan9">I. Dilarang menitipkan helm ataupun barang berharga lainnya. Barang berharga yang
+        dibawa masuk ke arena lomba (hp, laptop, dll) merupakan tanggung jawab pemilik barang.
+    </string>
+    <string name="peraturanTambahan10">J. Dilarang keras melakukan kekerasan atau kontak fisik yang dapat membahayakan
+        partisipan Orsim Brawijaya 2019.
+    </string>
+    <string name="peraturanTambahan11">K. Jika didalam venue kedapatan atau ketahuan membawa barang-barang yang
+        dilarang, maka panitia berhak untuk melakukan body checking dan pemeriksaan ulang terhadap pelanggar dan
+        mengamankan barang yang dilarang tersebut hingga Waktu Terakhir pertandingan.
+    </string>
+
+    <string name="barangDilaranag1">1. Makanan dan minuman</string>
+    <string name="barangDilaranag2">2. Botol/kaleng</string>
+    <string name="barangDilaranag3">3. Narkotika</string>
+    <string name="barangDilaranag4">4. Rokok</string>
+    <string name="barangDilaranag5">5. Korek api/pemantik api</string>
+    <string name="barangDilaranag6">6. Pengeras Suara</string>
+    <string name="barangDilaranag7">7. Barang yang berbentuk tongkat berbahan apapun (seperti monopod atau tongsis dan
+        tripod) kecuali untuk atribut fakultas seperti bendera
+    </string>
+    <string name="barangDilaranag8">8. Petasan/benda peledak</string>
+    <string name="barangDilaranag9">9. Benda yang mengeluarkan gas/asap</string>
+    <string name="barangDilaranag10">10. Senjata api</string>
+    <string name="barangDilaranag11">11. Segala macam laser/yang menyilaukan mata</string>
+    <string name="barangDilaranag12">12. Segala macam aerosol</string>
+    <string name="barangDilaranag13">13. Benda tajam</string>
+    <string name="barangDilaranag14">14. Semua bahan yang terbuat dari bahan-bahan yang dianggap membahayakan</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to_be_determined">to be determined</string>
+    <string name="score">-</string>
+    <string name="title_activity_new_main">NewMainActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="caborCerpen">Cerpen</string>
+    <string name="caborBalapSepeda">Balap Sepeda</string>
+    <string name="caborMelukis">Melukis</string>
+    <string name="caborSepakBola">Sepak Bola</string>
+    <string name="loading">Menyimpan data Anda...</string>
+    <string name="venueGKM">Gedung Kebudayaan Mahasiswa</string>
+    <string name="venueLapanganSampingGorPertamina">Lapangan Samping GOR Pertamina</string>
+    <string name="venumeStasiunMalang">Stasiun Kota Malang</string>
+    <string name="venueLapanganParkirGerbangWatugong">Lapangan Parkir Gerbang Watugong</string>
+    <string name="venueLapanganUBDieng">Lapangan UB Dieng</string>
+    <string name="venueSakri">Gedung Samantha Krida</string>
+    <string name="ub">Universitas Brawijaya</string>
+    <string name="venuePerpusUB">Perpustakaan UB</string>
+    <string name="venueStadionGajayana">Stadion Gajayana</string>
+    <string name="lukis_ada_nggak_sih">Lukis ada nggk sih?</string>
+    <string name="cerpen_ada_nggk_sih">cerpen ada nggk sih?</string>
+    <string name="sepak_bola_ada_nggk_sih">sepakbola ada nggk sih?</string>
+    <string name="sepeda_ada_nggak_sih">Balap Sepeda ada nggk sih?</string>
+    <string name="title_activity_about_us">@string/app_name</string>
+    <string name="title_activity_scrolling">Orsim Brawijaya 2019</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="enroll_key_description">Masukkan kode yang didapat dari panitia Olimpiade Brawijaya 2018</string>
+    <string name="enroll_key_header">Masukkan Kode</string>
+
+</resources>

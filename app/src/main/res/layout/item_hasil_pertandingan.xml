@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!--Start lomba versus-->
+    <android.support.v7.widget.CardView
+            android:id="@+id/lomba_versus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="2dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/nama_jadwal_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/gothammedium"
+                    tools:text="16 Besar" />
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/material_blue_grey_100"/>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:paddingBottom="10dp">
+
+                <LinearLayout
+                        android:id="@+id/team1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:id="@+id/cardScore_team1Res"
+                            android:layout_width="57dp"
+                            android:layout_height="57dp"
+                            android:src="@mipmap/ic_feb" />
+
+                    <TextView
+                            android:id="@+id/cardScore_team1Nama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="4dp"
+                            android:text="FEB"
+                            android:fontFamily="@font/gothammedium"
+                            android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/cardScore_team1Score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/card_versus"
+                        android:text="32"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="25sp" />
+
+                <TextView
+                        android:id="@+id/card_versus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingLeft="@dimen/spacing_medium"
+                        android:paddingRight="@dimen/spacing_medium"
+                        android:text="-"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="25sp" />
+
+                <TextView
+                        android:id="@+id/cardScore_team2Score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/card_versus"
+                        android:text="32"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="25sp" />
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:id="@+id/cardScore_team2Res"
+                            android:layout_width="57dp"
+                            android:layout_height="57dp"
+                            android:src="@mipmap/ic_feb" />
+
+                    <TextView
+                            android:id="@+id/cardScore_team2Nama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center"
+                            android:text="Filkom"
+                            android:fontFamily="@font/gothammedium"
+                            android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <!--End lomba versus-->
+</RelativeLayout>
